@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+body .container {
+  max-width: 1200px;
+}
+body .container header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+body .container main {
+  background-image: url(../images/round-baler.jpg);
+}/*# sourceMappingURL=styles.css.map */
