@@ -1,19 +1,80 @@
 body{
     margin: 0;
+    font-family: roboto;
 
     .container{
-        max-width: 1200px;
+        // max-width: 1200px;
+        height: 100%;
+        margin: auto;
 
-        header{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 20px 20px;
+        .wrapper{
+            position: relative;
+            color: white;
+
+            main{
+                color: white;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                height: 70vh;
+                align-items: flex-end;  
+                text-align: center;  
+            }
+
+            header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 20px 20px;
+                position: relative;
+
+                .vangroll{
+                    font-size: 3.5vw;
+                    font-weight: 700;
+                }
+                
+                .custom{
+                    font-size: 1.5vw;
+                    margin-top: -0.2vw;
+                    margin-left: .2vw;
+                }
+
+                .contact{
+                    font-size: 1.5vw;
+                }
+            }
+
             
         }
 
-        main{
-            background-image: url(../images/round-baler.jpg);
+        .wrapper::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            // opacity: .75;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/colin-watts-eTC2fQMgSC0-unsplash.jpg);
+            height: 100vh;
+            // width: 100%;
+            // padding: 35%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: center;
+
         }
+
+       
+        
+    }
+    
+    footer{
+        background-color: #303030;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw;
     }
 }
