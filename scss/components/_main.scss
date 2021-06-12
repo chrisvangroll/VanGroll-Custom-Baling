@@ -1,0 +1,39 @@
+body .container .wrapper main{
+
+        color: white;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 81vh;
+        align-items: flex-end;  
+        text-align: center;  
+
+        h1{
+            font-size: 5vw;
+            margin-bottom: 1vw;
+            animation-name: fadeIn;
+            animation-duration: 3s;
+            animation-delay: 1.5s;
+
+
+        }
+
+        .dash{
+            background-color: #201f1c;
+            height: .7vw;
+            width: 10vw;
+            margin: auto;
+            animation-name: dash-animation;
+            animation-duration: 1s;
+            animation-delay: 2.5s;
+        }
+
+        h2{
+            font-size: 3.5vw;
+            margin-top: 1vw;
+            animation-name: fadeIn;
+            animation-duration: 3s;
+            animation-delay: 3.5s;
+        }
+
+    }

@@ -1,0 +1,35 @@
+body .container .wrapper header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    position: relative;
+
+    @media (min-width: 1000px){
+        padding: 20px 11vh;
+    }
+
+    .vangroll{
+        font-size: 3.5vw;
+        font-weight: 700;
+    }
+    
+    .custom{
+        font-size: 1.5vw;
+        margin-top: -0.2vw;
+        margin-left: .2vw;
+    }
+
+    .contact{
+        font-size: 1.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-info{
+            margin-left: 3vw;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
