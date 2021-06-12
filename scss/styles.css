@@ -136,16 +136,31 @@ body .container .wrapper header .vangroll {
   font-size: 3.5vw;
   font-weight: 700;
 }
+@media (max-width: 500px) {
+  body .container .wrapper header .vangroll {
+    font-size: calc(.8em + 1vw);
+  }
+}
 body .container .wrapper header .custom {
   font-size: 1.5vw;
   margin-top: -0.2vw;
   margin-left: 0.2vw;
+}
+@media (max-width: 500px) {
+  body .container .wrapper header .custom {
+    font-size: 20px;
+  }
 }
 body .container .wrapper header .contact {
   font-size: 1.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  body .container .wrapper header .contact {
+    font-size: calc(.8em + 1vw);
+  }
 }
 body .container .wrapper header .contact .contact-info {
   margin-left: 3vw;

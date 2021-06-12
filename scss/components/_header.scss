@@ -12,12 +12,20 @@ body .container .wrapper header{
     .vangroll{
         font-size: 3.5vw;
         font-weight: 700;
+
+        @media (max-width: 500px){
+            font-size: calc(.8em + 1vw);
+        }
     }
     
     .custom{
         font-size: 1.5vw;
         margin-top: -0.2vw;
         margin-left: .2vw;
+
+        @media (max-width: 500px){
+            font-size: 20px;
+        }
     }
 
     .contact{
@@ -25,6 +33,10 @@ body .container .wrapper header{
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (max-width: 500px){
+            font-size: calc(.8em + 1vw);
+        }
 
         .contact-info{
             margin-left: 3vw;
