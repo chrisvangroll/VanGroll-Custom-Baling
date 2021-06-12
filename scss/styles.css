@@ -56,6 +56,14 @@ body .container .wrapper header .custom {
 }
 body .container .wrapper header .contact {
   font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .wrapper header .contact .contact-info {
+  margin-left: 3vw;
+  text-decoration: none;
+  color: white;
 }
 body .container .wrapper::before {
   content: "";
