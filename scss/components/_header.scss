@@ -14,16 +14,20 @@ body .container .wrapper header{
     }
 
     .vangroll{
-        font-size: 3.5vw;
+        font-size: 5.5vw;
         font-weight: 700;
 
         @media (max-width: 500px){
             font-size: 8.5vw;
         }
+
+        @media (min-width: 1000px){
+            font-size: 44px;
+        }
     }
     
     .custom{
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         margin-top: -0.2vw;
         margin-left: .2vw;
         text-align: right;
@@ -31,10 +35,15 @@ body .container .wrapper header{
         @media (max-width: 500px){
             font-size: 3.5vw;
         }
+
+        @media (min-width: 1000px){
+            font-size: 25px;
+        }
     }
 
     .contact{
-        font-size: 1.5vw;
+        font-size: 2.5vw;
+        font-weight: 700;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,6 +51,10 @@ body .container .wrapper header{
         @media (max-width: 500px){
             font-size: 3.5vw;
             font-weight: 700;
+        }
+
+        @media (min-width: 1000px){
+            font-size: 20px;
         }
 
         .contact-info{
