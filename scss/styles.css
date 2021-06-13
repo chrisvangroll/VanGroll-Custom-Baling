@@ -89,7 +89,7 @@ body .container .wrapper main {
 }
 @media (max-width: 500px) {
   body .container .wrapper main {
-    height: 74vh;
+    height: 60vh;
   }
 }
 body .container .wrapper main h1 {
