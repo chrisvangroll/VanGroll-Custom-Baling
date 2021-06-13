@@ -1,9 +1,13 @@
 body .spinContainer{
     padding-top: 29vh;
     height: 100vh;
-    animation: hide .1s linear .7s 1 forwards;
+    animation: hide .1s linear 3s 1 forwards;
     position: fixed;
     left: 45%;
+
+    @media(max-width: 500px){
+        left: 33%;
+    }
     
     .spinner{
         display:flex;
