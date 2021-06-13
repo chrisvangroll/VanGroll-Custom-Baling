@@ -4,9 +4,13 @@ body .container .wrapper main{
         position: relative;
         display: flex;
         justify-content: center;
-        height: 78vh;
+        height: 80vh;
         align-items: flex-end;  
-        text-align: center;  
+        text-align: center;
+        
+        @media(max-width: 500px){
+            height: 74vh;
+        }
 
         h1{
             font-size: 5.5vw;
